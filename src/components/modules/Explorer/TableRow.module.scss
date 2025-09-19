@@ -1,0 +1,110 @@
+.tableRow {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--color-border);
+
+  .tableDetails {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+
+    .chevron {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.rotate {
+        transform: rotate(90deg);
+      }
+    }
+
+    .icon {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-font-light);
+    }
+
+    span {
+      flex: 1;
+      font-size: var(--font-size-s);
+      line-height: var(--line-height-s);
+      font-weight: var(--font-weight-semibold);
+    }
+
+    &:hover {
+      background-color: var(--color-background-light);
+      cursor: pointer;
+    }
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .column {
+      display: flex;
+      //   flex-direction: column;
+      align-items: center;
+      padding: 0px 15px 0px 22px;
+      height: 42px !important;
+      gap: 10px;
+      //   border-bottom: 1px solid var(--color-border);
+
+      &.deHighlight {
+        opacity: 0.5;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .line {
+        height: 100%;
+        border-left: 2px solid var(--color-border);
+        display: flex;
+        align-items: center;
+
+        .dash {
+          width: 10px;
+          height: 2px;
+          background-color: var(--color-border);
+        }
+      }
+
+      .icon {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-font-light);
+      }
+
+      .columnName {
+        font-size: var(--font-size-s);
+        line-height: var(--line-height-s);
+        font-weight: var(--font-weight);
+        flex: 1;
+
+        mark {
+          background-color: #ffe203d0;
+        }
+      }
+
+      .columnType {
+        font-size: var(--font-size-s);
+        line-height: var(--line-height-s);
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-font-light);
+      }
+    }
+  }
+}
