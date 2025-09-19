@@ -1,5 +1,5 @@
 # PostgresLite Playground
-This is a playground for [PGlite](https://github.com/electric-sql/pglite). You can access this playground live at https://slickql.lineoai.com
+This is a playground for [PGlite](https://github.com/electric-sql/pglite). You can access this playground live at https://ratq.lineoai.com
 
 ![cover](/public/cover.png)
 
