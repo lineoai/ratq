@@ -1,5 +1,5 @@
 # PostgresLite Playground
-This is a playground for [PGlite](https://github.com/electric-sql/pglite). You can access this playground live at https://pgsql.haxzie.com
+This is a playground for [PGlite](https://github.com/electric-sql/pglite). You can access this playground live at https://slickql.lineoai.com
 
 ![cover](/public/cover.png)
 
@@ -9,6 +9,3 @@ To run the project locally, clone the repo and run
 $ npm install
 $ npm run dev
 ```
-
-## Contributing
-Please open an issue or [contact me](https://twitter.com/haxzie_) if you need any assistance
