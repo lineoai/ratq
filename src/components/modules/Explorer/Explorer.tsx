@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./Explorer.module.scss";
 import { useDatabase } from "../../../store/DB/Database";
-import PostgresIcon from "../../icons/Databases/Postgres";
 import PGLiteDriver from "../../../drivers/pglite";
 import Tables from "./Tables";
 import { useEditor } from "../../../store/Editor";
@@ -48,11 +47,8 @@ export default function Explorer() {
     <div className={styles.explorer}>
       <div className={styles.header}>
         <div className={styles.dbDetails}>
-          <div className={styles.icon}>
-            <PostgresIcon size={18} />
-          </div>
           <div className={styles.texts}>
-            <div className={styles.title}>Postgres Lite</div>
+            <div className={styles.title}>Rat Q</div>
           </div>
           {/* <ArrowUpDownIcon size={18} /> */}
         </div>

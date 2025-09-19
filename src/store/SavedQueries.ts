@@ -19,7 +19,7 @@ export const useSavedQueries = create<SavedQueriesState>((set) => ({
       query: DEMO_QUERIES,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
-      integrationId: "Postgres Lite",
+      integrationId: "Rat Q",
       name: "Demo Queries",
     },
   },

@@ -43,7 +43,7 @@ export default function SideNavBar() {
     <div className={styles.navbar}>
       <div className={styles.branding}>
         <div className={styles.logo}>
-          <Logo size={18} />
+          <Logo size={30} />
         </div>
       </div>
       <div className={styles.menu}>
@@ -63,7 +63,7 @@ export default function SideNavBar() {
       <div className={styles.links}>
         <a
           className={styles.menuItem}
-          href="https://github.com/haxzie/pglite-playground" target="_blank">
+          href="https://github.com/suman-3/slickql" target="_blank">
             <GitHubIcon size={18} />
           </a>
       </div>

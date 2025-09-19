@@ -49,7 +49,7 @@ export const useDatabase = create<DatabaseState>()((set, get) => ({
       // add query to history
       useHistory.getState().addHistory({
         name: "",
-        integrationId: "Postgres Lite",
+        integrationId: "Rat Q",
         query,
       });
       
