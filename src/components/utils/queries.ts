@@ -39,7 +39,7 @@ INSERT INTO users (username, email, full_name, date_of_birth) VALUES
 `;
 
 
-export const DEMO_QUERIES = `-- Welcome to PGLite explorer! This is a liteweight browser based editor to explore PGLite
+export const DEMO_QUERIES = `-- Welcome to Rat Q! This is a liteweight browser based editor to explore PGLite
 -- This demo uses PGLite by ElectricSQL (https://github.com/electric-sql/pglite)
 -- All the data will be stored within your browser
 
